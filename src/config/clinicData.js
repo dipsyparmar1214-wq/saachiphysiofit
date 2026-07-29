@@ -7,7 +7,7 @@ export const clinicData = {
   phoneRaw: "918487941823",
   whatsappNumber: "918487941823",
   address: "G1, G2, Maruti Complex, Opposite Kedareshvar Complex, Near Swaminarayan Mandir, Rajiv Nagar, Bardoli - 394601, Gujarat",
-  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Sacchi+And+Ladies+Fitness+Clinic+Maruti+Complex+Rajiv+Nagar+Bardoli+Gujarat+394601",
+  mapsUrl: "https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyDQgFEAAYhgMYgAQYigUyBwgGEAAY7wUyCggHEAAYgAQYogQyBwgIEAAY7wUyCggJEAAYgAQYogTSAQc3ODFqMGo3qAIAsAIA&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=KYkHj4FxZ-A7MWNp4dZXqZSr&daddr=G1,+G2,+Maruti+complex,+opp.+Kedareshvar+Complex,+near+swaminarayan+mandir,+Suraj+Park+Society,+Gandhinagar+Society,+Bardoli,+Gujarat+394601",
   
   timings: {
     weekdays: "Monday – Saturday: 9:00 AM – 12:00 PM & 2:00 PM – 5:30 PM",

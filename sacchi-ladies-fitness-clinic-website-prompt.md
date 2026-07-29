@@ -1,9 +1,3 @@
-# Website Development Prompt: Sacchi And Ladies Fitness Clinic
-
-Use this document as the complete brief/prompt to build the website (feed it to an AI dev tool like Claude Code, Cursor, v0, Bolt, etc., or hand it to a developer).
-
----
-
 ## 1. Project Overview
 
 Build a **single-page application (SPA)** — no backend, no database, no server — for a physiotherapy and women's fitness clinic. The site must be a **static, self-contained, deployable-anywhere** website (works on Netlify, Vercel, GitHub Pages, or even a plain hosting `public_html` folder). All "form submission" must resolve into a **pre-filled WhatsApp message** using the `wa.me` deep link — no server, no email service, no database required.
