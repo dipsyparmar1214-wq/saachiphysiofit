@@ -18,15 +18,66 @@ export const Footer = () => {
         >
           {/* Col 1: Brand Info */}
           <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1rem' }}>
-              <img src={logoImg} alt="Logo" style={{ height: '40px', borderRadius: '6px', background: '#FFF', padding: '2px' }} />
-              <span style={{ fontFamily: 'var(--font-heading)', fontWeight: 800, fontSize: '1.2rem', color: '#FFF' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem' }}>
+              <img src={logoImg} alt="Logo" style={{ height: '65px', width: 'auto', objectFit: 'contain', background: 'transparent' }} />
+              <span style={{ fontFamily: 'var(--font-heading)', fontWeight: 800, fontSize: '1.15rem', color: '#FFF', lineHeight: 1.2 }}>
                 {clinicData.name}
               </span>
             </div>
             <p style={{ fontSize: '0.875rem', color: 'rgba(255, 255, 255, 0.75)', lineHeight: '1.6', marginBottom: '1.5rem' }}>
               {clinicData.tagline}. Dedicated orthopedic physiotherapy and women's fitness clinic in Bardoli.
             </p>
+
+            {/* Social Media Links */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+              <a
+                href={clinicData.socialLinks.instagram}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Instagram"
+                style={{
+                  width: '38px',
+                  height: '38px',
+                  borderRadius: '50%',
+                  background: 'rgba(255, 255, 255, 0.1)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justify: 'center',
+                  color: '#FFFFFF',
+                  transition: 'var(--transition)'
+                }}
+                className="social-icon"
+              >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+
+              <a
+                href={clinicData.socialLinks.facebook}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Facebook"
+                style={{
+                  width: '38px',
+                  height: '38px',
+                  borderRadius: '50%',
+                  background: 'rgba(255, 255, 255, 0.1)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justify: 'center',
+                  color: '#FFFFFF',
+                  transition: 'var(--transition)'
+                }}
+                className="social-icon"
+              >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                </svg>
+              </a>
+            </div>
           </div>
 
           {/* Col 2: Navigation */}
@@ -90,6 +141,12 @@ export const Footer = () => {
           </div>
         </div>
       </div>
+      <style>{`
+        .social-icon:hover {
+          background: var(--color-secondary-dark) !important;
+          transform: translateY(-3px);
+        }
+      `}</style>
     </footer>
   );
 };

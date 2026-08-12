@@ -45,15 +45,15 @@ export const Navbar = () => {
     >
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         {/* Brand Logo & Name */}
-        <a href="#home" style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
+        <a href="#home" style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
           <img
             src={logoImg}
-            alt="Sacchi Clinic Logo"
+            alt="Saachi Physiotherapy & Ladies Fitness Clinic Logo"
             style={{
-              height: '46px',
+              height: '65px',
               width: 'auto',
               objectFit: 'contain',
-              borderRadius: '8px'
+              background: 'transparent'
             }}
           />
           <div>
@@ -61,20 +61,11 @@ export const Navbar = () => {
               display: 'block',
               fontFamily: 'var(--font-heading)',
               fontWeight: 800,
-              fontSize: '1.25rem',
+              fontSize: '1.15rem',
               color: 'var(--color-primary-dark)',
-              lineHeight: 1.1
+              lineHeight: 1.2
             }}>
-              Sacchi Clinic
-            </span>
-            <span style={{
-              display: 'block',
-              fontSize: '0.75rem',
-              fontWeight: 600,
-              color: 'var(--color-secondary-dark)',
-              letterSpacing: '0.5px'
-            }}>
-              Physiotherapy & Women's Fitness
+              Saachi Physiotherapy & Ladies Fitness Clinic
             </span>
           </div>
         </a>

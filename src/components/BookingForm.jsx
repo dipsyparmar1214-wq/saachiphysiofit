@@ -82,7 +82,7 @@ export const BookingForm = ({ preselectedService }) => {
     const notesText = formData.additionalNotes.trim() ? formData.additionalNotes.trim() : 'N/A';
 
     // Construct formatted WhatsApp message with emojis
-    const message = `Hello Sacchi And Ladies Fitness Clinic! 👋\n\nI would like to inquire about an appointment / consultation slot.\n\n🧑 Name: ${formData.fullName}\n📞 Contact: +91 ${formData.mobileNumber}\n🩺 Service: ${formData.selectedService}\n📅 Preferred Date: ${formattedDate}\n⏰ Preferred Time: ${formData.preferredTimeSlot}\n📝 Notes: ${notesText}\n\nPlease let me know your availability for this slot. Looking forward to your reply!`;
+    const message = `Hello Saachi Physiotherapy & Ladies Fitness Clinic! 👋\n\nI would like to inquire about an appointment / consultation slot.\n\n🧑 Name: ${formData.fullName}\n📞 Contact: +91 ${formData.mobileNumber}\n🩺 Service: ${formData.selectedService}\n📅 Preferred Date: ${formattedDate}\n⏰ Preferred Time: ${formData.preferredTimeSlot}\n📝 Notes: ${notesText}\n\nPlease let me know your availability for this slot. Looking forward to your reply!`;
 
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${clinicData.whatsappNumber}?text=${encodedMessage}`;

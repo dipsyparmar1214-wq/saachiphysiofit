@@ -25,7 +25,7 @@ export const About = () => {
           {/* Left Text */}
           <div>
             <div className="badge" style={{ marginBottom: '1rem' }}>
-              <Heart size={14} /> About Sacchi Clinic
+              <Heart size={14} /> About Saachi Clinic
             </div>
 
             <h2

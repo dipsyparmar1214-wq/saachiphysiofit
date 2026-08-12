@@ -155,9 +155,9 @@ export const Hero = () => {
                     gap: '0.5rem'
                   }}
                 >
-                  <img src={logoImg} alt="Logo" style={{ height: '22px' }} />
+                  <img src={logoImg} alt="Logo" style={{ height: '36px', background: 'transparent' }} />
                   <span style={{ fontSize: '0.75rem', fontWeight: 800, color: 'var(--color-primary-dark)' }}>
-                    Sacchi Clinic
+                    {clinicData.name}
                   </span>
                 </div>
               </div>

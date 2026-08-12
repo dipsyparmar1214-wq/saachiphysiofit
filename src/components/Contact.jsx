@@ -31,8 +31,8 @@ export const Contact = () => {
             }}
           >
             <div>
-              <h3 style={{ fontSize: '1.5rem', marginBottom: '1.5rem', color: 'var(--color-primary-dark)' }}>
-                Sacchi And Ladies Fitness Clinic
+              <h3 style={{ fontSize: '1.4rem', marginBottom: '1.5rem', color: 'var(--color-primary-dark)', lineHeight: 1.2 }}>
+                {clinicData.name}
               </h3>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', marginBottom: '2rem' }}>
@@ -101,8 +101,8 @@ export const Contact = () => {
             }}
           >
             <iframe
-              title="Sacchi Clinic Location Map"
-              src="https://maps.google.com/maps?q=Maruti%20Complex%20Rajiv%20Nagar%20Bardoli%20Gujarat&t=&z=16&ie=UTF8&iwloc=&output=embed"
+              title="Saachi Physiotherapy Location Map"
+              src={clinicData.mapsEmbedUrl}
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: '380px' }}

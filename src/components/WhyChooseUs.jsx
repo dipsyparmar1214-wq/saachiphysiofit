@@ -16,7 +16,7 @@ export const WhyChooseUs = () => {
         {/* Section Header */}
         <div className="section-header">
           <div className="badge badge-secondary">Patient-Centric Advantage</div>
-          <h2>Why Choose Sacchi Clinic?</h2>
+          <h2>Why Choose Saachi Clinic?</h2>
           <p>
             We blend clinical expertise, modern therapeutic modalities, and a gentle women-focused touch in Bardoli.
           </p>

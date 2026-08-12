@@ -1,14 +1,20 @@
 export const clinicData = {
-  name: "Sacchi And Ladies Fitness Clinic",
-  shortName: "Sacchi Clinic",
+  name: "Saachi Physiotherapy & Ladies Fitness Clinic",
+  shortName: "Saachi Physiotherapy & Ladies Fitness Clinic",
   tagline: "Restoring Movement, Empowering Women's Wellness",
   subTagline: "Expert orthopedic & general physiotherapy combined with specialized women's fitness & therapeutic rehabilitation in Bardoli.",
   phone: "+91 84879 41823",
   phoneRaw: "918487941823",
   whatsappNumber: "918487941823",
   address: "G1, G2, Maruti Complex, Opposite Kedareshvar Complex, Near Swaminarayan Mandir, Rajiv Nagar, Bardoli - 394601, Gujarat",
-  mapsUrl: "https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyDQgFEAAYhgMYgAQYigUyBwgGEAAY7wUyCggHEAAYgAQYogQyBwgIEAAY7wUyCggJEAAYgAQYogTSAQc3ODFqMGo3qAIAsAIA&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=KYkHj4FxZ-A7MWNp4dZXqZSr&daddr=G1,+G2,+Maruti+complex,+opp.+Kedareshvar+Complex,+near+swaminarayan+mandir,+Suraj+Park+Society,+Gandhinagar+Society,+Bardoli,+Gujarat+394601",
+  mapsUrl: "https://www.google.com/maps?daddr=21.1219,73.1118",
+  mapsEmbedUrl: "https://maps.google.com/maps?q=21.1219,73.1118&t=&z=16&ie=UTF8&iwloc=&output=embed",
   
+  socialLinks: {
+    instagram: "https://www.instagram.com/saachifitness2018",
+    facebook: "https://www.facebook.com/people/Saachi-physio-and-fitness/100063761091037/"
+  },
+
   timings: {
     weekdays: "Monday – Saturday: 9:00 AM – 12:00 PM & 2:00 PM – 5:30 PM",
     sunday: "Sunday: Closed",
@@ -94,7 +100,7 @@ export const clinicData = {
     {
       name: "Meena Patel",
       sub: "Bardoli Resident",
-      review: "I was suffering from severe lower back pain due to a slip disc (PIVD). Within 3 weeks of therapy at Sacchi Clinic, my pain decreased significantly and I could return to my daily routine without discomfort!",
+      review: "I was suffering from severe lower back pain due to a slip disc (PIVD). Within 3 weeks of therapy at Saachi Clinic, my pain decreased significantly and I could return to my daily routine without discomfort!",
       rating: 5
     },
     {
@@ -113,7 +119,7 @@ export const clinicData = {
 
   faqs: [
     {
-      question: "What conditions do you treat at Sacchi Clinic?",
+      question: "What conditions do you treat at Saachi Clinic?",
       answer: "We treat a wide spectrum of conditions including back pain, neck pain, PIVD (slip disc), arthritis, shoulder stiffness, sports injuries, post-surgical recovery, joint problems, and women's physical fitness."
     },
     {
