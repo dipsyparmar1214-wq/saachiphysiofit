@@ -113,6 +113,15 @@ button, input, select, textarea {
   border-radius: var(--radius-full);
   font-size: 0.875rem;
   font-weight: 600;
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .badge {
+    font-size: 0.72rem;
+    padding: 0.35rem 0.7rem;
+    gap: 0.35rem;
+  }
 }
 
 .badge-secondary {
