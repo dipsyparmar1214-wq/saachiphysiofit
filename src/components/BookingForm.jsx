@@ -98,7 +98,7 @@ export const BookingForm = ({ preselectedService }) => {
   return (
     <section id="book" style={{ padding: '5rem 0', background: 'var(--color-surface)', position: 'relative' }}>
       <div className="container">
-        <div className="section-header">
+        <div className="section-header reveal-up">
           <div className="badge badge-secondary">Seamless WhatsApp Appointment</div>
           <h2>Book Your Consultation</h2>
           <p>
@@ -106,7 +106,7 @@ export const BookingForm = ({ preselectedService }) => {
           </p>
         </div>
 
-        <div style={{ maxWidth: '780px', margin: '0 auto' }}>
+        <div style={{ maxWidth: '780px', margin: '0 auto' }} className="reveal-up">
           <form
             onSubmit={handleSubmit}
             className="glass-card"

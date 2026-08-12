@@ -23,7 +23,7 @@ export const About = () => {
           }}
         >
           {/* Left Text */}
-          <div>
+          <div className="reveal-left">
             <div className="badge" style={{ marginBottom: '1rem' }}>
               <Heart size={14} /> About Saachi Clinic
             </div>
@@ -64,7 +64,7 @@ export const About = () => {
           </div>
 
           {/* Right Image + Stats Column */}
-          <div>
+          <div className="reveal-right">
             <div
               className="glass-card"
               style={{

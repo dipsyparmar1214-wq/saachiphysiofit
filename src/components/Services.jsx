@@ -25,7 +25,7 @@ export const Services = ({ onSelectService }) => {
     <section id="services" style={{ padding: '5rem 0', background: 'var(--color-bg)' }}>
       <div className="container">
         {/* Section Header */}
-        <div className="section-header">
+        <div className="section-header reveal-up">
           <div className="badge">Specialized Healthcare & Wellness</div>
           <h2>Our Core Treatments & Services</h2>
           <p>
@@ -35,7 +35,7 @@ export const Services = ({ onSelectService }) => {
 
         {/* Electrotherapy Spotlight Banner */}
         <div
-          className="glass-card"
+          className="glass-card reveal-up"
           style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
@@ -71,6 +71,7 @@ export const Services = ({ onSelectService }) => {
 
         {/* 4 Cards Grid */}
         <div
+          className="reveal-up"
           style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',

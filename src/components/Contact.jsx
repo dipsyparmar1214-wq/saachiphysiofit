@@ -6,7 +6,7 @@ export const Contact = () => {
   return (
     <section id="contact" style={{ padding: '5rem 0', background: 'var(--color-surface)' }}>
       <div className="container">
-        <div className="section-header">
+        <div className="section-header reveal-up">
           <div className="badge">Visit Our Clinic</div>
           <h2>Contact & Location Details</h2>
           <p>Conveniently located in Rajiv Nagar, Bardoli. Easy ground-floor access with parking.</p>
@@ -22,7 +22,7 @@ export const Contact = () => {
         >
           {/* Info Card */}
           <div
-            className="glass-card"
+            className="glass-card reveal-left"
             style={{
               padding: '2.5rem',
               display: 'flex',
@@ -93,7 +93,7 @@ export const Contact = () => {
 
           {/* Embedded Map Frame */}
           <div
-            className="glass-card"
+            className="glass-card reveal-right"
             style={{
               overflow: 'hidden',
               minHeight: '380px',

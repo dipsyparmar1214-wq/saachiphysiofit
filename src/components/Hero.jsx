@@ -32,7 +32,7 @@ export const Hero = () => {
           }}
         >
           {/* Hero Left Text */}
-          <div>
+          <div className="reveal-left">
             <div className="badge badge-secondary" style={{ marginBottom: '1.25rem' }}>
               <Sparkles size={16} style={{ color: 'var(--color-secondary-dark)' }} />
               Bardoli's Premier Women's Wellness & Rehab Center
@@ -105,7 +105,7 @@ export const Hero = () => {
           </div>
 
           {/* Hero Right Visual Showcase */}
-          <div style={{ position: 'relative' }}>
+          <div style={{ position: 'relative' }} className="reveal-right">
             {/* Background Blob Glow */}
             <div
               style={{
@@ -188,6 +188,7 @@ export const Hero = () => {
 
         {/* Trust Badges Grid */}
         <div
+          className="reveal-up"
           style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',

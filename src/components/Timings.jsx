@@ -40,7 +40,7 @@ export const Timings = () => {
   return (
     <section id="timings" style={{ padding: '5rem 0', background: 'var(--color-bg)' }}>
       <div className="container">
-        <div className="section-header">
+        <div className="section-header reveal-up">
           <div className="badge">Clinic Schedule</div>
           <h2>Operating Hours & Live Status</h2>
           <p>
@@ -49,6 +49,7 @@ export const Timings = () => {
         </div>
 
         <div
+          className="reveal-up"
           style={{
             maxWidth: '800px',
             margin: '0 auto'
