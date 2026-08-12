@@ -19,6 +19,20 @@ export default function App() {
   };
 
   useEffect(() => {
+    // Safety fallback: reveal all elements automatically after 600ms if intersection observer hasn't fired yet
+    const fallbackTimer = setTimeout(() => {
+      document.querySelectorAll('.reveal-up, .reveal-left, .reveal-right').forEach(el => {
+        el.classList.add('reveal-active');
+      });
+    }, 600);
+
+    if (!('IntersectionObserver' in window)) {
+      document.querySelectorAll('.reveal-up, .reveal-left, .reveal-right').forEach(el => {
+        el.classList.add('reveal-active');
+      });
+      return;
+    }
+
     const observerCallback = (entries, observer) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -30,8 +44,8 @@ export default function App() {
 
     const observerOptions = {
       root: null,
-      rootMargin: '0px 0px -50px 0px',
-      threshold: 0.15
+      rootMargin: '0px 0px 50px 0px',
+      threshold: 0.05
     };
 
     const observer = new IntersectionObserver(observerCallback, observerOptions);
@@ -40,6 +54,7 @@ export default function App() {
     elementsToAnimate.forEach((el) => observer.observe(el));
 
     return () => {
+      clearTimeout(fallbackTimer);
       elementsToAnimate.forEach((el) => observer.unobserve(el));
     };
   }, []);

@@ -224,3 +224,13 @@ button, input, select, textarea {
   transform: translate(0, 0) !important;
 }
 
+/* Fallback: Ensure elements are visible on touch/mobile screens or if observer triggers late */
+@media (max-width: 768px) {
+  .reveal-up,
+  .reveal-left,
+  .reveal-right {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
