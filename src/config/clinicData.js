@@ -7,8 +7,8 @@ export const clinicData = {
   phoneRaw: "918487941823",
   whatsappNumber: "918487941823",
   address: "G1, G2, Maruti Complex, Opposite Kedareshvar Complex, Near Swaminarayan Mandir, Rajiv Nagar, Bardoli - 394601, Gujarat",
-  mapsUrl: "https://www.google.com/maps?daddr=21.1219,73.1118",
-  mapsEmbedUrl: "https://maps.google.com/maps?q=21.1219,73.1118&t=&z=16&ie=UTF8&iwloc=&output=embed",
+  mapsUrl: "https://maps.app.goo.gl/dxiu4o2or8vJgHqbA?g_st=am",
+  mapsEmbedUrl: "https://maps.google.com/maps?q=21.127401,73.113286&t=&z=17&ie=UTF8&iwloc=&output=embed",
   
   socialLinks: {
     instagram: "https://www.instagram.com/saachifitness2018",
