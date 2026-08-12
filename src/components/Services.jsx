@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bone, Activity, Zap, Sparkles, Brain, ShieldAlert, Stethoscope, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { Bone, Activity, Zap, Sparkles, Brain, ShieldAlert, Stethoscope, UserCheck, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { clinicData } from '../config/clinicData';
 import treatmentImg from '../assets/images/treatment.png';
 
@@ -11,7 +11,8 @@ export const Services = ({ onSelectService }) => {
     Sparkles: <Sparkles size={28} />,
     Brain: <Brain size={28} />,
     ShieldAlert: <ShieldAlert size={28} />,
-    Stethoscope: <Stethoscope size={28} />
+    Stethoscope: <Stethoscope size={28} />,
+    UserCheck: <UserCheck size={28} />
   };
 
   const handleBookService = (serviceTitle) => {

@@ -33,52 +33,116 @@ export const clinicData = {
 
   services: [
     {
-      id: "post-op-surgical",
-      title: "Post-Operative & Surgical Rehabilitation",
-      category: "Surgical Recovery",
-      description: "Comprehensive physiotherapy rehabilitation for all post-surgical & post-operative cases to restore mobility, joint stability, and muscle strength safely.",
+      id: "post-operative-cases",
+      title: "All Post Operative Cases",
+      category: "Surgical Rehab",
+      description: "Post-surgery physical therapy designed to reduce swelling, manage pain, prevent scar tissue, and restore full range of joint motion.",
       icon: "ShieldAlert",
-      features: ["All Post-Operative Cases", "All Surgical Recovery", "Stiffness & Pain Control", "Guided Muscle Strengthening"]
+      features: ["Custom Post-Op Protocol", "Range of Motion Exercises", "Swelling & Pain Management", "Safe Functional Recovery"]
     },
     {
-      id: "tkr-thr-joint",
-      title: "Joint Replacement Rehab (TKR & THR)",
-      category: "Joint Care",
-      description: "Targeted rehabilitation protocols specifically designed for Total Knee Replacement (TKR) and Total Hip Replacement (THR) recovery.",
-      icon: "Bone",
-      features: ["Total Knee Replacement (TKR)", "Total Hip Replacement (THR)", "Gait & Walking Training", "Joint Mobility & Balance"]
-    },
-    {
-      id: "arthritis-care",
-      title: "Arthritis & Joint Pain Management",
-      category: "Rheumatology",
-      description: "Specialized pain relief and joint preservation therapy for degenerative and inflammatory joint conditions.",
+      id: "all-surgical-cases",
+      title: "All Surgical Cases",
+      category: "Surgical Rehab",
+      description: "Pre and post-surgical rehabilitation plans ensuring quick muscle recovery, joint stability, and safe return to daily activities.",
       icon: "Activity",
-      features: ["Osteoarthritis Care", "Rheumatoid Arthritis Relief", "Joint Decompression", "Cartilage & Stiffness Support"]
+      features: ["Pre-Surgical Prep", "Post-Surgical Healing", "Strength Reconstruction", "Guided Recovery Sessions"]
     },
     {
-      id: "lipo-diet-fitness",
-      title: "Lipo Therapy & Diet Consultation",
-      category: "Wellness & Weight",
-      description: "Advanced non-invasive lipo therapy / inch loss treatment paired with personalized diet consultation & counselling for effective weight management.",
+      id: "tkr-thr",
+      title: "TKR + THR (Total Knee & Hip Replacement)",
+      category: "Joint Replacement",
+      description: "Specialized post-replacement rehabilitation protocols for Total Knee Replacement (TKR) and Total Hip Replacement (THR) patients.",
+      icon: "Bone",
+      features: ["Total Knee Replacement (TKR)", "Total Hip Replacement (THR)", "Gait & Balance Retraining", "Joint Mobility Exercises"]
+    },
+    {
+      id: "osteoarthritis",
+      title: "Osteoarthritis Care",
+      category: "Rheumatology",
+      description: "Targeted joint decompression, electrotherapy, and strength conditioning to reduce cartilage wear and relieve severe knee/joint pain.",
+      icon: "Bone",
+      features: ["Knee & Joint Pain Relief", "Cartilage Support Therapy", "Stiffness Reduction", "Improved Joint Flexibility"]
+    },
+    {
+      id: "rheumatoid-arthritis",
+      title: "Rheumatoid Arthritis Therapy",
+      category: "Rheumatology",
+      description: "Gentle physical therapy, joint protection strategies, and gentle mobilization to control inflammation and maintain mobility.",
+      icon: "Activity",
+      features: ["Inflammation Control", "Joint Protection", "Morning Stiffness Relief", "Gentle Mobilization"]
+    },
+    {
+      id: "lipo-therapy",
+      title: "Lipo Therapy / Inch Loss Therapy",
+      category: "Body Wellness",
+      description: "Advanced non-invasive targeted lipo therapy sessions to reduce stubborn localized fat, firm tissues, and promote inch loss.",
       icon: "Sparkles",
-      features: ["Lipo Therapy / Inch Loss", "Weight Management", "Diet Consultation & Counselling", "Body Contouring & Fitness"]
+      features: ["Targeted Inch Loss", "Non-Invasive Fat Reduction", "Body Contouring", "Tissue Firming"]
     },
     {
-      id: "neuro-paralysis-care",
-      title: "Neurological & Paralysis Rehabilitation",
+      id: "diet-consultation",
+      title: "Diet Consultation & Counselling",
+      category: "Nutrition & Health",
+      description: "Personalized clinical nutritional planning and dietary counselling tailored to your recovery goals, metabolic health, and weight management.",
+      icon: "UserCheck",
+      features: ["Personalized Meal Plans", "Nutritional Counselling", "Weight & Metabolic Support", "Healthy Lifestyle Habits"]
+    },
+    {
+      id: "polio-rehab",
+      title: "Polio Rehabilitation",
       category: "Neurology",
-      description: "Specialized physical therapy for neurological complaints, stroke recovery, and neuromuscular conditions to regain motor control.",
+      description: "Therapeutic muscle re-education, orthotic assistance guidance, and functional strength exercises for post-polio syndrome recovery.",
       icon: "Brain",
-      features: ["Neurological Complaints", "Paralysis & Stroke Care", "Polio Rehabilitation", "DMD & MND Therapy"]
+      features: ["Muscle Re-education", "Limb Mobility Exercises", "Posture & Balance Support", "Functional Strength Training"]
     },
     {
-      id: "ortho-fractures-tendons",
-      title: "Fracture Care & Tendonitis Relief",
+      id: "dmd-mnd",
+      title: "DMD + MND Management",
+      category: "Neuromuscular",
+      description: "Specialized care for Duchenne Muscular Dystrophy (DMD) and Motor Neuron Disease (MND) to maintain muscle function and quality of life.",
+      icon: "Brain",
+      features: ["Contracture Prevention", "Gentle Passive Stretching", "Respiratory Muscle Support", "Quality of Life Enhancement"]
+    },
+    {
+      id: "neurological-complaints",
+      title: "Neurological Complaints",
+      category: "Neurology",
+      description: "Comprehensive evaluation and therapy for nerve entrapment, numbness, balance disorders, and nerve coordination issues.",
+      icon: "Brain",
+      features: ["Nerve Coordination", "Balance Retraining", "Numbness & Tingling Relief", "Proprioception Training"]
+    },
+    {
+      id: "paralysis-care",
+      title: "Paralysis & Stroke Recovery",
+      category: "Neurology",
+      description: "Dedicated stroke and paralysis rehab focusing on neuro-plasticity, gait training, arm/leg function restoration, and independent living.",
+      icon: "Brain",
+      features: ["Neuro-Plasticity Exercises", "Gait & Walking Retraining", "Motor Skill Recovery", "Spasticity Relief"]
+    },
+    {
+      id: "tennis-elbow-fs-ct",
+      title: "Tennis Elbow, FS & CT Syndrome",
       category: "Orthopedics",
-      description: "Effective rehabilitation for all post-fracture stiffness, sports injuries, and repetitive strain pain syndromes.",
+      description: "Targeted electrotherapy and mobilization for Tennis Elbow, Frozen Shoulder (FS), and Carpal Tunnel (CT) Syndrome.",
       icon: "Stethoscope",
-      features: ["All Fracture Cases", "Tennis Elbow Relief", "Frozen Shoulder (FS)", "Carpal Tunnel (CT) Syndrome"]
+      features: ["Tennis Elbow Pain Relief", "Frozen Shoulder (FS) Mobilization", "Carpal Tunnel (CT) Relief", "Tendon Healing Modalities"]
+    },
+    {
+      id: "all-fracture-cases",
+      title: "All Fracture Cases",
+      category: "Orthopedics",
+      description: "Post-cast immobilization rehabilitation to eliminate stiffness, rebuild lost muscle mass, and restore full bone-joint strength.",
+      icon: "Bone",
+      features: ["Post-Cast Stiffness Relief", "Muscle Mass Reconstruction", "Bone Loading & Strength", "Joint Movement Restoration"]
+    },
+    {
+      id: "weight-management",
+      title: "Weight Management Program",
+      category: "Fitness & Wellness",
+      description: "Customized low-impact therapeutic exercise programs and fitness conditioning designed exclusively for women seeking healthy weight loss.",
+      icon: "Sparkles",
+      features: ["Therapeutic Weight Loss", "Low-Impact Cardio", "Core & Body Toning", "Sustained Metabolic Conditioning"]
     }
   ],
 
