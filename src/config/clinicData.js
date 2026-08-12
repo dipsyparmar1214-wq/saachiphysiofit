@@ -7,7 +7,8 @@ export const clinicData = {
   phoneRaw: "918487941823",
   whatsappNumber: "918487941823",
   address: "G1, G2, Maruti Complex, Opposite Kedareshvar Complex, Near Swaminarayan Mandir, Rajiv Nagar, Bardoli - 394601, Gujarat",
-  mapsUrl: "https://maps.app.goo.gl/dxiu4o2or8vJgHqbA?g_st=am",
+  mapsUrl: "https://www.google.com/maps/place/Saachi+Physiotherapy+and+ladies+Fitness+Clinic/@21.127401,73.1132857,17z/data=!3m1!4b1!4m6!3m5!1s0x3be06771818f0789:0xab94a957d6e16963!8m2!3d21.127401!4d73.1132857!16s%2Fg%2F11h03n3v0n",
+  reviewUrl: "https://search.google.com/local/writereview?placeid=ChIJiQePgXFn4DkRY2nh1leptKo",
   mapsEmbedUrl: "https://maps.google.com/maps?q=21.127401,73.113286&t=&z=17&ie=UTF8&iwloc=&output=embed",
   
   socialLinks: {

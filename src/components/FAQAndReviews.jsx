@@ -90,7 +90,7 @@ export const FAQAndReviews = () => {
 
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center', alignItems: 'center' }}>
               <a
-                href={clinicData.mapsUrl}
+                href={clinicData.reviewUrl}
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-primary"
