@@ -33,36 +33,52 @@ export const clinicData = {
 
   services: [
     {
-      id: "ortho-physio",
-      title: "Orthopedic & General Physiotherapy",
-      category: "Physiotherapy",
-      description: "Targeted treatment for musculoskeletal conditions including joint pain, severe arthritis, chronic back pain, and Prolapsed Intervertebral Disc (PIVD / Slip Disc).",
+      id: "post-op-surgical",
+      title: "Post-Operative & Surgical Rehabilitation",
+      category: "Surgical Recovery",
+      description: "Comprehensive physiotherapy rehabilitation for all post-surgical & post-operative cases to restore mobility, joint stability, and muscle strength safely.",
+      icon: "ShieldAlert",
+      features: ["All Post-Operative Cases", "All Surgical Recovery", "Stiffness & Pain Control", "Guided Muscle Strengthening"]
+    },
+    {
+      id: "tkr-thr-joint",
+      title: "Joint Replacement Rehab (TKR & THR)",
+      category: "Joint Care",
+      description: "Targeted rehabilitation protocols specifically designed for Total Knee Replacement (TKR) and Total Hip Replacement (THR) recovery.",
       icon: "Bone",
-      features: ["Joint Pain Relief", "PIVD & Back Care", "Arthritis Management", "Posture Correction"]
+      features: ["Total Knee Replacement (TKR)", "Total Hip Replacement (THR)", "Gait & Walking Training", "Joint Mobility & Balance"]
     },
     {
-      id: "injury-rehab",
-      title: "Injury & Post-Surgical Rehabilitation",
-      category: "Rehabilitation",
-      description: "Specialized recovery plans engineered to restore natural bodily movement, muscular strength, and joint function following surgeries or sports injuries.",
+      id: "arthritis-care",
+      title: "Arthritis & Joint Pain Management",
+      category: "Rheumatology",
+      description: "Specialized pain relief and joint preservation therapy for degenerative and inflammatory joint conditions.",
       icon: "Activity",
-      features: ["Post-Op Recovery", "Sports Injury Care", "Mobility Restoration", "Muscle Re-education"]
+      features: ["Osteoarthritis Care", "Rheumatoid Arthritis Relief", "Joint Decompression", "Cartilage & Stiffness Support"]
     },
     {
-      id: "therapeutic-tech",
-      title: "Therapeutic Techniques",
-      category: "Therapy",
-      description: "Advanced electrotherapy, mechanical lumbar & cervical traction, manual mobilization, stretching, and physical therapy exercises for rapid pain relief.",
-      icon: "Zap",
-      features: ["Electrotherapy (IFT/TENS)", "Mechanical Traction", "Manual Mobilization", "Targeted Stretching"]
-    },
-    {
-      id: "women-fitness",
-      title: "Women's Fitness & Wellness",
-      category: "Fitness",
-      description: "Fitness and exercise conditioning programs designed specifically for women, focusing on weight management, pelvic health, and functional physical strength.",
+      id: "lipo-diet-fitness",
+      title: "Lipo Therapy & Diet Consultation",
+      category: "Wellness & Weight",
+      description: "Advanced non-invasive lipo therapy / inch loss treatment paired with personalized diet consultation & counselling for effective weight management.",
       icon: "Sparkles",
-      features: ["Weight Management", "Core & Pelvic Strength", "Functional Training", "Wellness Conditioning"]
+      features: ["Lipo Therapy / Inch Loss", "Weight Management", "Diet Consultation & Counselling", "Body Contouring & Fitness"]
+    },
+    {
+      id: "neuro-paralysis-care",
+      title: "Neurological & Paralysis Rehabilitation",
+      category: "Neurology",
+      description: "Specialized physical therapy for neurological complaints, stroke recovery, and neuromuscular conditions to regain motor control.",
+      icon: "Brain",
+      features: ["Neurological Complaints", "Paralysis & Stroke Care", "Polio Rehabilitation", "DMD & MND Therapy"]
+    },
+    {
+      id: "ortho-fractures-tendons",
+      title: "Fracture Care & Tendonitis Relief",
+      category: "Orthopedics",
+      description: "Effective rehabilitation for all post-fracture stiffness, sports injuries, and repetitive strain pain syndromes.",
+      icon: "Stethoscope",
+      features: ["All Fracture Cases", "Tennis Elbow Relief", "Frozen Shoulder (FS)", "Carpal Tunnel (CT) Syndrome"]
     }
   ],
 
