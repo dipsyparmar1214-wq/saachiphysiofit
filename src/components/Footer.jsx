@@ -29,7 +29,7 @@ export const Footer = () => {
             </p>
 
             {/* Social Media Links */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginTop: '1rem' }}>
               <a
                 href={clinicData.socialLinks.instagram}
                 target="_blank"
@@ -39,17 +39,17 @@ export const Footer = () => {
                   width: '40px',
                   height: '40px',
                   borderRadius: '50%',
-                  background: 'rgba(255, 255, 255, 0.12)',
+                  background: '#FFFFFF',
                   display: 'inline-flex',
                   alignItems: 'center',
                   justify: 'center',
-                  color: '#FFFFFF',
+                  color: 'var(--color-primary-dark)',
                   transition: 'var(--transition)',
-                  padding: 0
+                  boxShadow: '0 2px 8px rgba(0,0,0,0.15)'
                 }}
                 className="social-icon"
               >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ display: 'block' }}>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary-dark)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ display: 'block' }}>
                   <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                   <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                   <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
@@ -65,17 +65,17 @@ export const Footer = () => {
                   width: '40px',
                   height: '40px',
                   borderRadius: '50%',
-                  background: 'rgba(255, 255, 255, 0.12)',
+                  background: '#FFFFFF',
                   display: 'inline-flex',
                   alignItems: 'center',
                   justify: 'center',
-                  color: '#FFFFFF',
+                  color: 'var(--color-primary-dark)',
                   transition: 'var(--transition)',
-                  padding: 0
+                  boxShadow: '0 2px 8px rgba(0,0,0,0.15)'
                 }}
                 className="social-icon"
               >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ display: 'block' }}>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary-dark)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ display: 'block' }}>
                   <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                 </svg>
               </a>
