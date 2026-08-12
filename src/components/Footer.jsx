@@ -131,7 +131,7 @@ export const Footer = () => {
             © {new Date().getFullYear()} {clinicData.name}. All rights reserved.
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', fontWeight: 600 }}>
-            Created by Harsh AI Creations <Heart size={16} fill="#E8927C" color="#E8927C" />
+            Created by Harsh Web Creations <Heart size={16} fill="#E8927C" color="#E8927C" />
           </div>
         </div>
       </div>
