@@ -87,20 +87,23 @@ export const Hero = () => {
 
             {/* Address Quick Badge */}
             <div
+              className="badge"
               style={{
                 display: 'inline-flex',
                 alignItems: 'center',
-                gap: '0.6rem',
-                fontSize: '0.875rem',
+                gap: '0.4rem',
+                fontSize: '0.85rem',
+                fontWeight: 600,
                 color: 'var(--color-text-muted)',
                 background: 'rgba(255, 255, 255, 0.7)',
                 padding: '0.5rem 1rem',
                 borderRadius: 'var(--radius-full)',
-                border: '1px solid var(--color-border)'
+                border: '1px solid var(--color-border)',
+                whiteSpace: 'nowrap'
               }}
             >
-              <ShieldCheck size={16} style={{ color: 'var(--color-primary)' }} />
-              Opposite Kedareshvar Complex, Rajiv Nagar, Bardoli
+              <ShieldCheck size={16} style={{ color: 'var(--color-primary)', flexShrink: 0 }} />
+              Opp. Kedareshvar Complex, Bardoli
             </div>
           </div>
 
