@@ -100,18 +100,22 @@ export const Services = ({ onSelectService }) => {
               <div>
                 <div
                   style={{
-                    width: '58px',
-                    height: '58px',
-                    borderRadius: 'var(--radius-md)',
+                    width: '56px',
+                    height: '56px',
+                    borderRadius: '14px',
                     background: index % 2 === 0 ? 'rgba(15, 110, 110, 0.1)' : 'rgba(232, 146, 124, 0.15)',
                     color: index % 2 === 0 ? 'var(--color-primary)' : 'var(--color-secondary-dark)',
                     display: 'flex',
                     alignItems: 'center',
-                    justify: 'center',
-                    marginBottom: '1.5rem'
+                    justifyContent: 'center',
+                    marginBottom: '1.5rem',
+                    flexShrink: 0,
+                    lineHeight: 0
                   }}
                 >
-                  {iconComponents[srv.icon]}
+                  <span style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
+                    {iconComponents[srv.icon]}
+                  </span>
                 </div>
 
                 <span
