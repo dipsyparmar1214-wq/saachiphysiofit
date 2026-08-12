@@ -61,6 +61,71 @@ export const FAQAndReviews = () => {
               </div>
             ))}
           </div>
+
+          {/* Google Review Call to Action Banner */}
+          <div
+            className="glass-card reveal-up"
+            style={{
+              marginTop: '3rem',
+              padding: '2rem',
+              textAlign: 'center',
+              background: 'linear-gradient(135deg, rgba(15, 110, 110, 0.06), rgba(232, 146, 124, 0.1))',
+              borderRadius: 'var(--radius-lg)',
+              borderColor: 'var(--color-border)',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justify: 'center',
+              gap: '1.2rem'
+            }}
+          >
+            <div>
+              <h3 style={{ fontSize: '1.25rem', color: 'var(--color-primary-dark)', marginBottom: '0.4rem' }}>
+                Visited Saachi Clinic? Share Your Recovery Experience!
+              </h3>
+              <p style={{ fontSize: '0.92rem', color: 'var(--color-text-muted)', maxWidth: '600px', margin: '0 auto' }}>
+                Your valuable feedback helps other women in Bardoli find trusted physiotherapy and fitness care.
+              </p>
+            </div>
+
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center', alignItems: 'center' }}>
+              <a
+                href={clinicData.mapsUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-primary"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '0.6rem',
+                  padding: '0.75rem 1.6rem',
+                  fontSize: '0.95rem',
+                  fontWeight: 700,
+                  boxShadow: '0 4px 14px rgba(15, 110, 110, 0.25)'
+                }}
+              >
+                <Star size={18} fill="#FFD700" stroke="#FFD700" />
+                Write a Google Review
+              </a>
+
+              <a
+                href={`https://wa.me/${clinicData.whatsappNumber}?text=Hi%20Saachi%20Clinic,%20I%20would%20like%20to%20share%20my%20feedback%20regarding%20my%20treatment...`}
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-secondary"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '0.6rem',
+                  padding: '0.75rem 1.6rem',
+                  fontSize: '0.95rem',
+                  fontWeight: 700
+                }}
+              >
+                💬 Send Feedback via WhatsApp
+              </a>
+            </div>
+          </div>
         </div>
 
         {/* FAQs */}
