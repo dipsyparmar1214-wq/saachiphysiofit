@@ -85,7 +85,16 @@ export const Contact = () => {
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary"
-              style={{ width: '100%', padding: '0.9rem' }}
+              style={{
+                width: '100%',
+                padding: '0.85rem 1rem',
+                fontSize: '0.9rem',
+                whiteSpace: 'nowrap',
+                display: 'inline-flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: '0.5rem'
+              }}
             >
               <Navigation size={18} /> Get Directions on Google Maps
             </a>
