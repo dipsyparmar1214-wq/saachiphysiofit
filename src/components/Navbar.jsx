@@ -61,9 +61,10 @@ export const Navbar = () => {
               display: 'block',
               fontFamily: 'var(--font-heading)',
               fontWeight: 800,
-              fontSize: '1.15rem',
+              fontSize: '1.05rem',
               color: 'var(--color-primary-dark)',
-              lineHeight: 1.2
+              whiteSpace: 'nowrap',
+              lineHeight: 1
             }}>
               Saachi Physiotherapy & Ladies Fitness Clinic
             </span>
